@@ -1,0 +1,165 @@
+41:610  0:808  Found BIOS RSDP at FCCB0
+41:610  0:000  Printing ACPI tables from RSDP FCCB0 ...
+41:610  0:000   FCCB0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+41:610  0:000    (Xsdt: AF1D30A0, Rsdt: AF1D3028)
+41:610  0:000    AF1D30A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+41:610  0:000    AF1D3028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+41:610  0:000    Tables in Xsdt: 19
+41:610  0:000    0. AF1F44B8: 'FACP', 'A M I ', Rev: 5, Len: 268
+41:610  0:000        (Dsdt: AF1D31F8, Facs: AF9CBF80, XDsdt: AF1D31F8, XFacs: 0)
+41:610  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867
+41:612  0:001        AF9CBF80: 'FACS', Ver: 2, Len: 64
+41:612  0:000    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188
+41:612  0:000    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68
+41:612  0:000    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156
+41:612  0:000    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60
+41:612  0:000    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56
+41:612  0:000    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+41:612  0:000    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148
+41:612  0:000    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+41:612  0:000    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+41:612  0:000    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315
+41:612  0:000    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52
+41:612  0:000    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84
+41:612  0:000    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+41:612  0:000    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226
+41:612  0:000    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66
+41:612  0:000    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+41:612  0:000    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168
+41:612  0:000    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56
+41:612  0:000    Tables in Rsdt: 19
+41:612  0:000    0. AF1D3170: 'FACP', 'A M I ', Rev: 2, Len: 132
+41:612  0:000        (Dsdt: AF1D31F8, Facs: AF9CBF40)
+41:612  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867
+41:613  0:001        AF9CBF40: 'FACS', Ver: 0, Len: 64
+41:613  0:000    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188
+41:613  0:000    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68
+41:613  0:000    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156
+41:613  0:000    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60
+41:613  0:000    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56
+41:613  0:000    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+41:613  0:000    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148
+41:613  0:000    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+41:613  0:000    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+41:613  0:000    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315
+41:613  0:000    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52
+41:613  0:000    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84
+41:613  0:000    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+41:613  0:000    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226
+41:613  0:000    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66
+41:613  0:000    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+41:613  0:000    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168
+41:613  0:000    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56
+41:613  0:000  Found UEFI Acpi 2.0 RSDP at AF1D3000
+41:613  0:000  Saving ACPI tables from RSDP AF1D3000 to EFI\CLOVER\ACPI\origin ...
+41:613  0:000   AF1D3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+41:639  0:026    (Xsdt: AF1D30A0, Rsdt: AF1D3028)
+41:639  0:000    AF1D30A0: 'XSDT', 'A M I ', Rev: 1, Len: 188 -> XSDT.aml
+41:665  0:025    AF1D3028: 'RSDT', 'A M I ', Rev: 1, Len: 112 -> RSDT.aml
+41:690  0:025    Tables in Xsdt: 19
+41:690  0:000    0. AF1F44B8: 'FACP', 'A M I ', Rev: 5, Len: 268 -> FACP.aml
+41:716  0:025        (Dsdt: AF1D31F8, Facs: AF9CBF80, XDsdt: AF1D31F8, XFacs: 0)
+41:716  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867 -> DSDT.aml
+41:744  0:027        AF9CBF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+41:771  0:027    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188 -> APIC.aml
+41:797  0:025    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68 -> FPDT.aml
+41:824  0:026    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156 -> FIDT.aml
+41:849  0:025    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+41:876  0:026    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+41:901  0:025    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0.aml
+41:945  0:043    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+41:971  0:026    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1.aml
+41:997  0:026    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2.aml
+42:025  0:027    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315 -> SSDT-3.aml
+42:057  0:032    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+42:397  0:340    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+42:673  0:275    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797 -> SSDT-4.aml
+42:939  0:265    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226 -> SSDT-5.aml
+43:082  0:143    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+43:109  0:026    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+43:109  0:000        * ADF3C818: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1962  53 53 44 54 AA 07 00 00 02 E6 50 6D 52 65 66 00 Internal length = 1962 -> SSDT-7x.aml
+43:138  0:029        * ADF3B618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-8x.aml
+43:168  0:030        * ADF3BC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-9x.aml
+43:195  0:026        * AEF3EC18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-10x.aml
+43:227  0:032        * ABB22018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-11x.aml
+43:253  0:025        * AC499198: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-12x.aml
+43:282  0:029        * AC499018: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-13x.aml
+43:308  0:025   -> SSDT-6.aml
+43:334  0:025    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168 -> DMAR.aml
+43:359  0:025    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56 -> BGRT.aml
+43:386  0:026    Tables in Rsdt: 19
+43:386  0:000    0. AF1D3170: 'FACP', 'A M I ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+43:419  0:033        (Dsdt: AF1D31F8, Facs: AF9CBF40)
+43:419  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867 -> RSDT-DSDT.aml
+43:478  0:059        AF9CBF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+43:515  0:037    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188 -> RSDT-APIC.aml
+43:544  0:028    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68 -> RSDT-FPDT.aml
+43:570  0:026    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156 -> RSDT-FIDT.aml
+43:601  0:031    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+43:627  0:025    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56 -> RSDT-HPET.aml
+43:655  0:027    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> RSDT-SSDT-0.aml
+43:681  0:026    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148 -> RSDT-LPIT.aml
+43:709  0:027    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> RSDT-SSDT-1.aml
+43:743  0:033    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> RSDT-SSDT-2.aml
+43:777  0:034    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315 -> RSDT-SSDT-3.aml
+43:803  0:025    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52 -> RSDT-DBGP.aml
+43:851  0:048    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84 -> RSDT-DBG2.aml
+43:878  0:026    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797 -> RSDT-SSDT-4.aml
+43:951  0:073    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226 -> RSDT-SSDT-5.aml
+43:990  0:038    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66 -> RSDT-UEFI.aml
+44:120  0:130    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+44:120  0:000    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168
+44:120  0:000    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56
+44:120  0:000  Found UEFI Acpi 1.0 RSDP at AF1D3000
+44:120  0:000  Printing ACPI tables from RSDP AF1D3000 ...
+44:120  0:000   AF1D3000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+44:120  0:000    (Xsdt: AF1D30A0, Rsdt: AF1D3028)
+44:120  0:000    AF1D30A0: 'XSDT', 'A M I ', Rev: 1, Len: 188
+44:120  0:000    AF1D3028: 'RSDT', 'A M I ', Rev: 1, Len: 112
+44:120  0:000    Tables in Xsdt: 19
+44:120  0:000    0. AF1F44B8: 'FACP', 'A M I ', Rev: 5, Len: 268
+44:120  0:000        (Dsdt: AF1D31F8, Facs: AF9CBF80, XDsdt: AF1D31F8, XFacs: 0)
+44:120  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867
+44:122  0:001        AF9CBF80: 'FACS', Ver: 2, Len: 64
+44:122  0:000    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188
+44:122  0:000    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68
+44:122  0:000    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156
+44:122  0:000    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60
+44:122  0:000    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56
+44:122  0:000    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+44:122  0:000    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148
+44:122  0:000    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+44:122  0:000    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+44:122  0:000    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315
+44:122  0:000    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52
+44:122  0:000    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84
+44:122  0:000    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+44:122  0:000    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226
+44:122  0:000    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66
+44:122  0:000    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+44:122  0:000    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168
+44:122  0:000    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56
+44:122  0:000    Tables in Rsdt: 19
+44:122  0:000    0. AF1D3170: 'FACP', 'A M I ', Rev: 2, Len: 132
+44:122  0:000        (Dsdt: AF1D31F8, Facs: AF9CBF40)
+44:122  0:000        AF1D31F8: 'DSDT', 'A M I ', Rev: 2, Len: 135867
+44:124  0:001        AF9CBF40: 'FACS', Ver: 0, Len: 64
+44:124  0:000    1. AF1F45C8: 'APIC', 'A M I ', Rev: 3, Len: 188
+44:124  0:000    2. AF1F4688: 'FPDT', 'A M I ', Rev: 1, Len: 68
+44:124  0:000    3. AF1F46D0: 'FIDT', 'A M I ', Rev: 1, Len: 156
+44:124  0:000    4. AF1F4770: 'MCFG', 'A M I', Rev: 1, Len: 60
+44:124  0:000    5. AF1F47B0: 'HPET', 'A M I', Rev: 1, Len: 56
+44:124  0:000    6. AF1F47E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+44:124  0:000    7. AF1F4B58: 'LPIT', 'SKL', Rev: 1, Len: 148
+44:124  0:000    8. AF1F4BF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+44:124  0:000    9. AF1F4E38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+44:124  0:000    10. AF1F79E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3315
+44:124  0:000    11. AF1F86E0: 'DBGP', '', Rev: 1, Len: 52
+44:124  0:000    12. AF1F8718: 'DBG2', '', Rev: 0, Len: 84
+44:124  0:000    13. AF1F8770: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+44:124  0:000    14. AF1F8E78: 'SSDT', 'SaSsdt ', Rev: 2, Len: 21226
+44:124  0:000    15. AF1FE168: 'UEFI', '', Rev: 1, Len: 66
+44:124  0:000    16. AF1FE1B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+44:124  0:000    17. AF1FF098: 'DMAR', 'SKL ', Rev: 1, Len: 168
+44:124  0:000    18. AF1FF060: 'BGRT', 'A M I ', Rev: 1, Len: 56

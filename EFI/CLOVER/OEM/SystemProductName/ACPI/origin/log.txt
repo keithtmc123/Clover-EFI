@@ -1,0 +1,5 @@
+
+Intel ACPI Component Architecture
+ASL Optimizing Compiler version 20110623-64 [Jun 23 2011]
+Copyright (c) 2000 - 2011 Intel Corporation
+

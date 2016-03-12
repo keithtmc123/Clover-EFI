@@ -1,0 +1,460 @@
+0:100  0:100  MemLog inited, TSC freq: 4008576030
+0:100  0:000  MemLog was calibrated without ACPI PM Timer: ACPI I/O space is not enabled.
+0:100  0:000  
+0:100  0:000  Now is 7.3.2016,  18:48:57 (GMT+2047)
+0:100  0:000  Starting Clover rev 3320 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5247B1A8-BDE3-4735-900E-0C7BE22AE62F,0x28,0x64000) @A9ADDB18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:113  0:013  Total Memory Slots Count = 4
+0:113  0:000  Type 17 Index = 0
+0:113  0:000  Ignoring insane frequency value 0MHz
+0:113  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:113  0:000  SmbiosTable.Type17->Size = 0MB
+0:113  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 DIMM_A1
+0:113  0:000  Type 17 Index = 1
+0:113  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:113  0:000  SmbiosTable.Type17->Size = 4096MB
+0:113  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 DIMM_A2
+0:113  0:000  Type 17 Index = 2
+0:113  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:113  0:000  SmbiosTable.Type17->Size = 8192MB
+0:113  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 DIMM_B1
+0:113  0:000  Type 17 Index = 3
+0:113  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:113  0:000  SmbiosTable.Type17->Size = 4096MB
+0:113  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 DIMM_B2
+0:113  0:000  Boot status=0
+0:113  0:000  Clover revision: 3320  running on System Product Name
+0:113  0:000  ... with board Z170-P D3
+0:113  0:000  CPU Vendor = 756E6547 Model=506E3
+0:113  0:000  The CPU supported turbo
+0:113  0:000  BrandString = Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+0:113  0:000  MSR 0xE2 before patch 1E000000
+0:113  0:000  MSR 0xE4              00031814
+0:113  0:000  MSR 0xCE              00080838_F1012800
+0:113  0:000  non-usable FLEX_RATIO = F0000
+0:113  0:000  corrected FLEX_RATIO = E0000
+0:113  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:113  0:000  Corrected FSBFrequency=100MHz
+0:113  0:000  Vendor/Model/Stepping: 0x756E6547/0x5E/0x3
+0:113  0:000  Family/ExtFamily: 0x6/0x0
+0:113  0:000  MaxDiv/MinDiv: 40.0/8
+0:113  0:000  Turbo: 40/40/40/42
+0:113  0:000  Features: 0xBFEBFBFF
+0:113  0:000  Threads: 4
+0:113  0:000  Cores: 4
+0:113  0:000  FSB: 100 MHz
+0:113  0:000  CPU: 4000 MHz
+0:113  0:000  TSC: 4000 MHz
+0:113  0:000  PIS: 400 MHz
+0:113  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:113  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:113  0:000  PCI (00|01:00.00) : 10DE 13C2 class=030000
+0:113  0:000  Found NVidia model=nVidia GeForce GTX 970
+0:113  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:113  0:000  PCI (00|00:02.00) : 8086 1912 class=038000
+0:113  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:113  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:113  0:000  PCI (00|00:17.00) : 8086 A102 class=010601
+0:113  0:000  PCI (00|00:1B.00) : 8086 A167 class=060400
+0:113  0:000  PCI (00|00:1C.00) : 8086 A110 class=060400
+0:113  0:000  PCI (00|00:1C.02) : 8086 A112 class=060400
+0:113  0:000  PCI (00|04:00.00) : 168C 002E class=028000
+0:113  0:000  PCI (00|00:1C.03) : 8086 A113 class=060400
+0:113  0:000  PCI (00|05:00.00) : 10EC 8168 class=020000
+0:113  0:000  LAN 0, Vendor=10EC, MMIO=D000
+0:113  0:000  PCI (00|00:1D.00) : 8086 A118 class=060400
+0:113  0:000  PCI (00|00:1F.00) : 8086 A145 class=060100
+0:113  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:113  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:113  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:113  0:000  Clover load options size = 0 bytes
+0:145  0:031  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:145  0:000  EFI\CLOVER\config.plist loaded: Success
+0:146  0:001  Found theme directory: bluemac
+0:149  0:002  Found theme directory: El Capitan
+0:160  0:010  Found theme directory: embedded
+0:172  0:012  Found theme directory: random
+0:173  0:001  Found theme directory: tonymacx86
+0:180  0:006  Loading early settings
+0:180  0:000  timeout set to 5
+0:180  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:180  0:000  Default theme: El Capitan
+0:180  0:000  LoadDrivers() start
+0:184  0:004  Loading DataHubDxe-64.efi  status=Success
+0:191  0:007  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:195  0:004  Loading FSInject-64.efi  status=Success
+0:195  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:197  0:001  Loading VBoxHfs-64.efi  status=Success
+0:197  0:000   - driver needs connecting
+0:197  0:000  Loading LegacyRegion2Dxe-64.efi  status=Success
+0:204  0:007  LegacyRegion2: EfiLegacyRegion2 exists - exiting
+0:204  0:000  Loading PartitionDxe-64.efi  status=Success
+0:206  0:001   - driver needs connecting
+0:206  0:000  Loading CsmVideoDxe-64.efi  status=Success
+0:207  0:000   - driver needs connecting
+0:209  0:001  Loading NTFS.efi  status=Success
+0:210  0:001   - driver needs connecting
+0:210  0:000  4 drivers needs connecting ...
+0:210  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:210  0:000  Partition driver loaded: CD disconnect Success
+0:210  0:000  Video driver loaded: disconnect Success
+0:293  0:082  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:312  0:019  CsmVideoDriverBindingStart
+0:312  0:000  mixed support=40010
+0:312  0:000  Controller is [030000]
+0:312  0:000  Check for VBE
+0:415  0:102    0 640x480 attr=3BF - ok, 640x480, working, highest, pref=0
+0:417  0:002    1 800x600 attr=3BF - ok, 800x600, working, highest, pref=1
+0:419  0:002    2 1024x768 attr=3BF - ok, 1024x768, working, highest, pref=2
+0:421  0:002    3 1280x1024 attr=3BF - ok
+0:433  0:012    4 1920x1080 attr=3BF - ok
+0:436  0:002    5 1280x800 attr=3BF - ok
+0:436  0:000  CsmVideo: New mode: 2 1024x768 - set
+0:559  0:123   - SetMode pref 2 (2) = Success
+0:559  0:000  CsmVideoCheckForVbe - Success
+0:560  0:000  CsmVideoDriverBindingStart end Success
+0:601  0:041  CsmVideo: New mode: 1 800x600 - set
+0:719  0:118  CsmVideoDriverBindingStart
+0:719  0:000  Enable the device status=Unsupported
+0:719  0:000  attributes Restored
+0:719  0:000  CsmVideoDriverBindingStart end Unsupported
+1:812  1:092  LoadDrivers() end
+1:812  0:000  Dump SMC keys from NVRAM:
+1:821  0:008  SetScreenResolution: 1920x1080 - setting Mode 4
+1:821  0:000  CsmVideo: New mode: 4 1920x1080 - set
+2:009  0:188  Video mode change to mode #4: Success
+2:009  0:000  Console modes reported: 4, available modes:
+2:009  0:000    Mode 1: 80x25 (current mode)
+2:009  0:000    Mode 2: 80x50
+2:009  0:000    Mode 3: 100x31
+2:009  0:000    Mode 4: 160x53
+2:009  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5247B1A8-BDE3-4735-900E-0C7BE22AE62F,0x28,0x64000)
+2:010  0:000  ScanSPD() start
+2:010  0:000  SMBus CmdReg: 0x3
+2:010  0:000  Scanning SMBus [8086:A123], mmio: 0xF732A004, ioport: 0xF040, hostc: 0x1
+2:010  0:000  Slots to scan [8]...
+2:030  0:020  SPD[1]: Type 11 @0x51 
+2:039  0:008  DDR speed 1333MHz 
+2:039  0:000  Slot: 1 Type 24 4096MB 1333MHz Vendor=Corsair PartNo=CMV4GX3M1A1333C9 SerialNo=0000000000000000 
+2:053  0:014  SPD[2]: Type 11 @0x52 
+2:062  0:008  DDR speed 1600MHz 
+2:062  0:000  Slot: 2 Type 24 8192MB 1600MHz Vendor=A-DATA Technology PartNo= SerialNo=0C04030C00000000 
+2:076  0:014  SPD[3]: Type 11 @0x53 
+2:084  0:008  DDR speed 1333MHz 
+2:084  0:000  Slot: 3 Type 24 4096MB 1333MHz Vendor=Corsair PartNo=CMV4GX3M1A1333C9 SerialNo=0000000000000000 
+2:108  0:024  ScanSPD() end
+2:108  0:000  Get Acpi Tables List from RSDT:
+2:108  0:000   Found table: FACP  A M I  len=132
+2:108  0:000   Found table: APIC  A M I  len=132
+2:108  0:000   Found table: FPDT  A M I  len=68
+2:108  0:000   Found table: FIDT  A M I  len=156
+2:108  0:000   Found table: MCFG  A M I len=60
+2:108  0:000   Found table: HPET  A M I len=56
+2:108  0:000   Found table: SSDT  SataTabl len=877
+2:108  0:000   Found table: LPIT  SKL len=148
+2:108  0:000   Found table: SSDT  sensrhub len=584
+2:108  0:000   Found table: SSDT  PtidDevc len=11182
+2:108  0:000   Found table: SSDT  Ther_Rvp len=3315
+2:108  0:000   Found table: DBGP   len=52
+2:108  0:000   Found table: DBG2   len=84
+2:108  0:000   Found table: SSDT  xh_rvp08 len=1797
+2:108  0:000   Found table: SSDT  SaSsdt  len=21226
+2:108  0:000   Found table: UEFI   len=66
+2:108  0:000   Found table: SSDT  CpuSsdt len=3672
+2:108  0:000   Found table: DMAR  SKL  len=168
+2:108  0:000   Found table: BGRT  A M I  len=56
+2:108  0:000  Calibrated TSC frequency =4008576030 =4008MHz
+2:109  0:000  Loading main settings
+2:109  0:000  Config set ChassisType=0xD
+2:148  0:039  found 40 volumes with blockIO
+2:148  0:000   0. Volume:
+2:148  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x4,0x0)
+2:149  0:001    Result of bootcode detection: bootable unknown (legacy)
+2:149  0:000    USB volume
+2:149  0:000   1. Volume:
+2:149  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x4,0x0)\HD(1,GPT,1DA996AD-DBC7-4D22-90B1-BF4BC0DC3B6B,0x28,0x64000)
+2:151  0:001    Result of bootcode detection: bootable Windows (vista,win)
+2:151  0:000    USB volume
+2:159  0:007   2. Volume:
+2:159  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0x4,0x0)\HD(2,GPT,D1B1A1B7-15B8-4E4B-87D9-B737AB52F03D,0x64028,0xBD6CD0)
+2:160  0:001    USB volume
+2:160  0:000   3. Volume:
+2:160  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)
+2:161  0:000    USB volume
+2:161  0:000   4. Volume:
+2:161  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(1,GPT,3A2C7EDA-EC71-48C5-B7A6-86F50161E02C,0x28,0x64000)
+2:162  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:162  0:000    USB volume
+2:162  0:000   5. Volume:
+2:162  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(2,GPT,9CD5884A-2C8F-4F5A-8807-3C6EE7FE2552,0x64028,0x1DA4DD0)
+2:163  0:000    USB volume
+2:163  0:000   6. Volume:
+2:163  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(3,GPT,52A87DA2-1D07-4B0D-B854-FFB32EBC6618,0x1E08DF8,0x135F20)
+2:163  0:000    USB volume
+2:163  0:000   7. Volume:
+2:163  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(4,GPT,24EA250E-9647-4809-93A4-90A21A4D7465,0x1F3ED18,0x665EF0)
+2:164  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:164  0:000    USB volume
+2:164  0:000   8. Volume:
+2:164  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(5,GPT,D5D46869-168C-456E-BA3B-B8ADAF6BED9C,0x25E4C08,0x2540BE0)
+2:165  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:165  0:000    USB volume
+2:165  0:000   9. Volume:
+2:165  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(6,GPT,15875E53-5E7C-4A89-A682-9A5491816789,0x4B657E8,0x2540BE0)
+2:166  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:166  0:000    USB volume
+2:166  0:000  10. Volume:
+2:166  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(7,GPT,239A211F-DB88-45BE-8406-4739B9E98F1C,0x70E63C8,0xEE6B28)
+2:167  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:167  0:000    USB volume
+2:167  0:000  11. Volume:
+2:167  0:000    PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\HD(8,GPT,518AB232-596A-44F8-B8BA-98F8365A7086,0x800CEF0,0x1D3E1B98)
+2:168  0:000    USB volume
+2:168  0:000  12. Volume:
+2:168  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+2:168  0:000  13. Volume:
+2:168  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x3,0xFFFF,0x0)
+2:169  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:169  0:000  14. Volume:
+2:169  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+2:171  0:001    Result of bootcode detection: bootable unknown (legacy)
+2:171  0:000  15. Volume:
+2:171  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)
+2:171  0:000    found optical drive
+2:229  0:058  16. Volume:
+2:229  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,23F8F6A8-276E-4D56-9C62-D8F0F28D07E5,0x800,0xE1000)
+2:232  0:002    Result of bootcode detection: bootable Windows (vista,win)
+2:232  0:000  17. Volume:
+2:232  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,D118DB60-1AFD-4755-B644-BD0867818DA5,0xE1800,0x32000)
+2:237  0:005    Result of bootcode detection: bootable Windows (vista,win)
+2:237  0:000  18. Volume:
+2:237  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,4818DA97-C2F7-4E47-8E8B-B3C5DFBBE58C,0x113800,0x8000)
+2:238  0:000  19. Volume:
+2:238  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(4,GPT,EE8B0673-A6AC-479E-8864-5B1E0B8A8EC4,0x11C000,0xC6E4800)
+2:241  0:003    Result of bootcode detection: bootable Windows (vista,win)
+2:241  0:000  20. Volume:
+2:241  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(5,GPT,C03F798F-43F9-4543-8B5B-40B6CC0DDECD,0xC800840,0xC7FF7BF)
+2:253  0:011    Result of bootcode detection: bootable Windows (vista,win)
+2:253  0:000  21. Volume:
+2:253  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(6,GPT,6231CBD3-76F4-4B40-A0FB-B9E27E4B6296,0x19000840,0xC3601CDE)
+2:262  0:009    Result of bootcode detection: bootable Windows (vista,win)
+2:262  0:000  22. Volume:
+2:262  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(7,GPT,A504B2F9-E181-4AE0-B18E-7F068C116DFB,0xDC6028B0,0xC805000)
+2:284  0:022    Result of bootcode detection: bootable Windows (vista,win)
+2:284  0:000  23. Volume:
+2:284  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,5247B1A8-BDE3-4735-900E-0C7BE22AE62F,0x28,0x64000)
+2:285  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:286  0:000    This is SelfVolume !!
+2:286  0:000  24. Volume:
+2:286  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,BEC2D3B0-0F5C-453C-B769-D34CF5E58CB8,0x64028,0x2303A6F0)
+2:293  0:007  25. Volume:
+2:293  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(3,GPT,8603E634-DFF4-443A-9053-F7CD1C43266F,0x2309E718,0x135F20)
+2:308  0:014  26. Volume:
+2:308  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(4,GPT,826CA620-8F60-4B06-8BB4-7F5B6D56CADE,0x231D4638,0xB94DC50)
+2:308  0:000  27. Volume:
+2:308  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(5,GPT,8F37AFCC-B3D8-4A6E-ABF4-1BBE70F8AE81,0x2EB22288,0x135F20)
+2:309  0:000  28. Volume:
+2:309  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(6,GPT,63B4B0F2-04D6-4E5A-B39F-0175590D3AFF,0x2EC581A8,0xA98B7A0)
+2:310  0:000  29. Volume:
+2:310  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(7,GPT,A77F8910-202D-4937-8F10-027C6BBE818A,0x39623948,0x174876E8)
+2:324  0:014    Result of bootcode detection: bootable unknown (legacy)
+2:324  0:000  30. Volume:
+2:324  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(8,GPT,2D91C53D-DBFA-4470-B695-200EF0580BFD,0x50AAB800,0x21CA4000)
+2:325  0:000  31. Volume:
+2:325  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(9,GPT,CE78F53D-3D4D-4670-83DC-877B5DA3DAD1,0x7274F800,0x1FB7000)
+2:325  0:000  32. Volume:
+2:325  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x3,0xFFFF,0x0)\CDROM(0x0)
+2:326  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:326  0:000  33. Volume:
+2:326  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x3,0xFFFF,0x0)\CDROM(0x0)
+2:327  0:000  34. Volume:
+2:327  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x3,0xFFFF,0x0)\CDROM(0x0)
+2:327  0:000  35. Volume:
+2:327  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x3,0xFFFF,0x0)\CDROM(0x0)
+2:328  0:001  36. Volume:
+2:328  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\CDROM(0x0)
+2:401  0:072    Result of bootcode detection: bootable unknown (legacy)
+2:401  0:000  37. Volume:
+2:401  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\CDROM(0x0)
+2:414  0:013  38. Volume:
+2:414  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\CDROM(0x0)\CDROM(0x0)
+2:471  0:056    Result of bootcode detection: bootable unknown (legacy)
+2:471  0:000  39. Volume:
+2:471  0:000    PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\CDROM(0x0)\CDROM(0x0)
+2:559  0:088  Using theme 'El Capitan' (EFI\CLOVER\themes\El Capitan)
+2:559  0:000  theme El Capitan defined in NVRAM found and theme.plist parsed
+2:559  0:000  OS main and drive as badge
+2:559  0:000  Warning! Character width should be even!
+2:570  0:010  Choosing theme El Capitan
+2:570  0:000  found boot-args in NVRAM:kext-dev-mode=1 rootless=0 nvda_drv=1, size=38
+2:570  0:000  ...found arg:kext-dev-mode=1
+2:570  0:000  ...found arg:rootless=0
+2:570  0:000  ...adding arg:rootless=0
+2:570  0:000  ...found arg:nvda_drv=1
+2:570  0:000  Custom entries start
+2:570  0:000  Custom entries finish
+2:570  0:000  Scanning loaders...
+2:570  0:000   0: 'Whole Disc Boot' no file system
+2:570  0:000   1: 'EFI'
+2:621  0:050   2: 'Install OS X El Capitan'
+2:628  0:006      AddLoaderEntry for Volume Name=Install OS X El Capitan
+2:635  0:006   3: 'Whole Disc Boot' no file system
+2:635  0:000   4: 'EFI'
+2:635  0:000      AddLoaderEntry for Volume Name=EFI
+2:699  0:063   5: 'OSXŸH'
+2:741  0:042      AddLoaderEntry for Volume Name=OSXŸH
+2:757  0:015      Check if volume Is Hibernated:
+2:757  0:000      Check sleep image 'by signature':
+2:784  0:026      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+2:784  0:000      using default sleep image name = \private\var\vm\sleepimage
+2:804  0:020      sleepimage not found -> Not Found
+2:804  0:000       hibernated: no - sign
+2:806  0:001   6: 'Recovery HD'
+2:817  0:011      AddLoaderEntry for Volume Name=Recovery HD
+2:835  0:017   7: 'EFI BACK UP'
+2:836  0:000   8: 'Legacy HD5' no file system
+2:836  0:000   9: 'Legacy HD6' no file system
+2:836  0:000  10: 'Legacy HD7' no file system
+2:836  0:000  11: '*}'
+2:859  0:023  12: 'Whole Disc Boot' no file system
+2:859  0:000  13: 'Whole Disc Boot' no file system
+2:859  0:000  14: 'Whole Disc Boot' no file system
+2:859  0:000  15: 'Whole Disc Boot' no file system
+2:859  0:000  16: 'î©'
+2:860  0:000  17: 'EFI'
+2:897  0:037      AddLoaderEntry for Volume Name=EFI
+2:899  0:001      AddLoaderEntry for Volume Name=EFI
+2:899  0:000    Icon 19 (icons\vol_internal_ext3.icns) not found
+2:899  0:000    Theme path EFI\CLOVER\themes\El Capitan, ThemeDir=AB906020
+2:900  0:000  18: 'Legacy HD3' no file system
+2:900  0:000  19: 'Bootcamp'
+2:901  0:000  20: 'Programe file'
+2:901  0:000  21: 'Porn'
+2:902  0:000  22: 'Kyle's file'
+2:903  0:000  23: 'EFI'
+2:912  0:009      AddLoaderEntry for Volume Name=EFI
+2:923  0:010  24: 'Macintosh'
+2:984  0:060      AddLoaderEntry for Volume Name=Macintosh
+3:012  0:028      Check if volume Is Hibernated:
+3:012  0:000      Check sleep image 'by signature':
+3:052  0:040      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+3:052  0:000      SleepImage name from pref: ImageVolume = 'Macintosh', ImageName = '\private\var\vm\sleepimage'
+3:099  0:047      Reading first 512 bytes of sleepimage ...
+3:111  0:011   OurBlockIoRead: Lba=8D2C6F8, Offset=11A58DF000 (BlockSize=512)
+3:111  0:000   sig lion: A3A09D9C
+3:111  0:000   sig snow: 77767574
+3:111  0:000   no valid sleep image offset was found
+3:111  0:000      Reading completed -> Success
+3:111  0:000       sleepimage offset could not be acquired
+3:111  0:000       hibernated: no - sign
+3:111  0:000    Icon 17 (icons\vol_internal_hfs.icns) not found
+3:111  0:000    Theme path EFI\CLOVER\themes\El Capitan, ThemeDir=AB906020
+3:201  0:089  25: 'Recovery HD'
+3:215  0:014      AddLoaderEntry for Volume Name=Recovery HD
+3:242  0:027  26: 'Hackintosh'
+3:291  0:048      AddLoaderEntry for Volume Name=Hackintosh
+3:306  0:014      Check if volume Is Hibernated:
+3:306  0:000      Check sleep image 'by signature':
+3:338  0:032      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+3:338  0:000      using default sleep image name = \private\var\vm\sleepimage
+3:353  0:014      Reading first 512 bytes of sleepimage ...
+3:359  0:006   OurBlockIoRead: Lba=25354700, Offset=4A6A8E0000 (BlockSize=512)
+3:359  0:000   sig lion: F8000000
+3:359  0:000   sig snow: 30000000
+3:359  0:000   no valid sleep image offset was found
+3:359  0:000      Reading completed -> Success
+3:359  0:000       sleepimage offset could not be acquired
+3:359  0:000       hibernated: no - sign
+3:368  0:009  27: 'Recovery HD'
+3:380  0:012      AddLoaderEntry for Volume Name=Recovery HD
+3:387  0:006  28: 'Legacy HD6' no file system
+3:387  0:000  29: 'DISK'
+3:388  0:000  30: 'Legacy HD8' no file system
+3:388  0:000  31: 'Legacy HD9' no file system
+3:388  0:000  32: 'Whole Disc Boot' no file system
+3:388  0:000  33: 'Boot OS X'
+3:389  0:001  34: 'Backup'
+3:434  0:045  35: 'Whole Disc Boot' no file system
+3:434  0:000  36: 'Whole Disc Boot' no file system
+3:434  0:000  37: 'StellarBootDVD'
+4:159  0:724      AddLoaderEntry for Volume Name=StellarBootDVD
+4:452  0:292      Check if volume Is Hibernated:
+4:452  0:000      Check sleep image 'by signature':
+4:452  0:000      no disk BlockIo
+4:452  0:000       hibernated: no - sign
+4:454  0:001  38: 'Whole Disc Boot' no file system
+4:454  0:000  39: 'Whole Disc Boot' no file system
+4:454  0:000  Custom legacy start
+4:454  0:000  Custom legacy end
+4:454  0:000  Scanning legacy ...
+4:454  0:000   0: 'Whole Disc Boot' (legacy) not legacy
+4:454  0:000   1: 'EFI' (vista,win) add legacy
+4:455  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+4:455  0:000   2: 'Install OS X El Capitan' (legacy) not legacy
+4:455  0:000   3: 'Whole Disc Boot' (legacy) not legacy
+4:455  0:000   4: 'EFI' (legacy) not legacy
+4:455  0:000   5: 'OSXŸH' (legacy) not legacy
+4:455  0:000   6: 'Recovery HD' (legacy) not legacy
+4:455  0:000   7: 'EFI BACK UP' (legacy) not legacy
+4:455  0:000   8: 'Legacy HD5' (legacy) not legacy
+4:455  0:000   9: 'Legacy HD6' (legacy) not legacy
+4:455  0:000  10: 'Legacy HD7' (legacy) not legacy
+4:455  0:000  11: '*}' (legacy) not legacy
+4:455  0:000  12: 'Whole Disc Boot' (legacy) not legacy
+4:455  0:000  13: 'Whole Disc Boot' (legacy) not legacy
+4:455  0:000  14: 'Whole Disc Boot' (legacy) not legacy
+4:455  0:000  15: 'Whole Disc Boot' (legacy) not legacy
+4:455  0:000  16: 'î©' (vista,win) add legacy
+4:455  0:000   added 'Boot Windows from î©' OSType=2 Icon=vista,win
+4:455  0:000  17: 'EFI' (vista,win) add legacy
+4:456  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+4:456  0:000  18: 'Legacy HD3' (legacy) not legacy
+4:456  0:000  19: 'Bootcamp' (vista,win) add legacy
+4:457  0:000   added 'Boot Windows from Bootcamp' OSType=2 Icon=vista,win
+4:457  0:000  20: 'Programe file' (vista,win) add legacy
+4:458  0:000   added 'Boot Windows from Programe file' OSType=2 Icon=vista,win
+4:458  0:000  21: 'Porn' (vista,win) add legacy
+4:458  0:000   added 'Boot Windows from Porn' OSType=2 Icon=vista,win
+4:458  0:000  22: 'Kyle's file' (vista,win) add legacy
+4:459  0:000   added 'Boot Windows from Kyle's file' OSType=2 Icon=vista,win
+4:459  0:000  23: 'EFI' (legacy) not legacy
+4:459  0:000  24: 'Macintosh' (legacy) not legacy
+4:459  0:000  25: 'Recovery HD' (legacy) not legacy
+4:459  0:000  26: 'Hackintosh' (legacy) not legacy
+4:459  0:000  27: 'Recovery HD' (legacy) not legacy
+4:459  0:000  28: 'Legacy HD6' (legacy) not legacy
+4:459  0:000  29: 'DISK' (legacy) not legacy
+4:459  0:000  30: 'Legacy HD8' (legacy) not legacy
+4:459  0:000  31: 'Legacy HD9' (legacy) not legacy
+4:459  0:000  32: 'Whole Disc Boot' (legacy) not legacy
+4:459  0:000  33: 'Boot OS X' (legacy) not legacy
+4:459  0:000  34: 'Backup' (legacy) not legacy
+4:459  0:000  35: 'Whole Disc Boot' (legacy) not legacy
+4:459  0:000  36: 'Whole Disc Boot' (legacy) not legacy
+4:459  0:000  37: 'StellarBootDVD' (legacy) not legacy
+4:459  0:000  38: 'Whole Disc Boot' (legacy) not legacy
+4:459  0:000  39: 'Whole Disc Boot' (legacy) not legacy
+4:459  0:000  Custom tool start
+4:459  0:000  Custom tool end
+4:489  0:029  found tool \EFI\CLOVER\tools\Shell64U.efi
+4:489  0:000  Checking EFI partition Volume 1 for Clover
+4:494  0:005   Found Clover
+4:494  0:000  Checking EFI partition Volume 4 for Clover
+4:536  0:042   Found Clover
+4:536  0:000  Checking EFI partition Volume 17 for Clover
+4:536  0:000  Checking EFI partition Volume 23 for Clover
+4:537  0:000   Found Clover
+4:539  0:001  GetEfiBootDeviceFromNvram:
+4:539  0:000   efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0x0,0x0)\HD(2,GPT,BEC2D3B0-0F5C-453C-B769-D34CF5E58CB8,0x64028,0x2303A6F0)
+4:539  0:000   Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0x0,0x0)\HD(2,GPT,BEC2D3B0-0F5C-453C-B769-D34CF5E58CB8,0x64028,0x2303A6F0)'
+4:539  0:000   LoaderPath: '<null string>'
+4:539  0:000   Guid = BEC2D3B0-0F5C-453C-B769-D34CF5E58CB8
+4:539  0:000   volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0x0,0x0)\HD(2,GPT,BEC2D3B0-0F5C-453C-B769-D34CF5E58CB8,0x64028,0x2303A6F0)
+4:539  0:000   searching for that partition
+4:539  0:000    found entry 7. 'Boot Mac OS X from Macintosh', Volume 'Macintosh'
+4:539  0:000  Boot redirected to Entry 7. 'Boot Mac OS X from Macintosh'
+4:539  0:000  DefaultIndex=7 and MainMenu.EntryCount=27
+4:539  0:000  Use anime=Anim_1_Logo frames=150
+4:592  0:052  SetScreenResolution: 1920x1080 - already set
+5:545  0:953  GUI ready
